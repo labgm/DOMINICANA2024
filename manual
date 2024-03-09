@@ -17,3 +17,7 @@ megahit -1 SRR19451538_1.fastq.gz -2 SRR19451538_2.fastq.gz --k-list 71,73 -o as
 kraken2 --db <database> --output <KRAKEN FATFILE>.out --report  <OUTPUT FILE>.report --threads <THREADS) --use-names <INPUT FASTQ - SEPARATED BY SPACE>
 
 kraken2 --db /MP_Data/database/kraken2/last_release --output SRR19451538.out --report  SRR19451538.report --threads 50 --use-names SRR19451538_1.fastq SRR19451538_2.fastq
+
+
+### PAVIAN
+https://fbreitwieser.shinyapps.io/pavian/
